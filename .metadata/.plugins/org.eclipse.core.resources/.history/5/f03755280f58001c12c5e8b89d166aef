@@ -1,0 +1,57 @@
+package emse;
+
+//snippet-start:[ec2.java2.start_stop_instance.import]
+import software.amazon.awssdk.regions.Region;
+import software.amazon.awssdk.services.ec2.Ec2Client;
+import software.amazon.awssdk.services.ec2.model.StartInstancesRequest;
+import software.amazon.awssdk.services.ec2.model.StopInstancesRequest;
+//snippet-end:[ec2.java2.start_stop_instance.import]
+
+public class SwitchInstanceStatus {
+    public static void main(String instanceId, ) {
+
+        boolean start;
+
+        Region region = Region.US_WEST_2;
+        Ec2Client ec2 = Ec2Client.builder()
+                .region(region)
+                .build();
+
+        if(args[1].equals("start")) {
+            start = true;
+        } else {
+            start = false;
+        }
+
+        if(start) {
+            startInstance(ec2, instanceId);
+        } else {
+            stopInstance(ec2, instanceId);
+        }
+        ec2.close();
+    }
+
+    // snippet-start:[ec2.java2.start_stop_instance.start]
+    public static void startInstance(Ec2Client ec2, String instanceId) {
+
+        StartInstancesRequest request = StartInstancesRequest.builder()
+                .instanceIds(instanceId)
+                .build();
+
+        ec2.startInstances(request);
+        System.out.printf("Successfully started instance %s", instanceId);
+    }
+    // snippet-end:[ec2.java2.start_stop_instance.start]
+
+    // snippet-start:[ec2.java2.start_stop_instance.stop]
+    public static void stopInstance(Ec2Client ec2, String instanceId) {
+
+        StopInstancesRequest request = StopInstancesRequest.builder()
+                .instanceIds(instanceId)
+                .build();
+
+        ec2.stopInstances(request);
+        System.out.printf("Successfully stopped instance %s", instanceId);
+    }
+    // snippet-end:[ec2.java2.start_stop_instance.stop]
+}

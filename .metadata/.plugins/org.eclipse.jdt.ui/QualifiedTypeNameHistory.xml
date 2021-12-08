@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.regions.Region"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.services.ec2.model.RunInstancesRequest"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.services.ec2.model.InstanceType"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.services.ec2.model.Tag"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.services.ec2.model.RunInstancesResponse"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.services.ec2.model.CreateTagsRequest"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.services.ec2.model.Ec2Exception"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.services.ec2.Ec2Client"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.services.ec2.model.StartInstancesRequest"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.services.ec2.model.StopInstancesRequest"/>
+</qualifiedTypeNameHistroy>
