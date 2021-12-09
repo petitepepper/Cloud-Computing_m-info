@@ -32,13 +32,11 @@ public class SwitchInstanceStatus {
         List<Reservation> reservations = response.reservations();
         Instance instance = reservations.get(0).instances().get(0);
         String currentStatus = instance.state().nameAsString();
-        System.out.println(currentStatus);
+        System.out.println("Current status of instance : " + currentStatus);
 
         if (currentStatus.equals("running")) {
-        	System.out.println("stop");
         	stopInstance(ec2, instanceId);
         } else {
-        	System.out.println("start");
         	startInstance(ec2, instanceId);
         }
         ec2.close();

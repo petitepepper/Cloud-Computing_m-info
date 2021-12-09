@@ -12,7 +12,7 @@
     <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="emse.CreateInstance"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="aws-cloud"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="whatevernameforlab2  ami-0ed9277fb7eb570c9"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="whatevernameforlab2_test  ami-0d3c032f5934e1b41"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="aws-cloud"/>
     <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
 </launchConfiguration>

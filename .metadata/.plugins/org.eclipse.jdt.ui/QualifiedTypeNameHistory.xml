@@ -10,4 +10,8 @@
     <fullyQualifiedTypeName name="software.amazon.awssdk.services.ec2.Ec2Client"/>
     <fullyQualifiedTypeName name="software.amazon.awssdk.services.ec2.model.StartInstancesRequest"/>
     <fullyQualifiedTypeName name="software.amazon.awssdk.services.ec2.model.StopInstancesRequest"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.services.ec2.model.DescribeInstancesRequest"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.services.ec2.model.DescribeInstancesResponse"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.services.ec2.model.Reservation"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.services.ec2.model.Instance"/>
 </qualifiedTypeNameHistroy>
