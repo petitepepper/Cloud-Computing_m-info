@@ -450,3 +450,128 @@
 2021-12-09 09:55:33,062 [Worker-32: Launching CreateBucket] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
 2021-12-09 09:55:33,067 [Worker-32: Launching CreateBucket] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
 2021-12-09 09:55:33,068 [Worker-32: Launching CreateBucket] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-11 23:42:58,201 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-12-11 23:51:44,825 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-11 23:51:44,827 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-11 23:51:44,830 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-11 23:51:44,831 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-11 23:53:04,145 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-11 23:53:04,146 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-11 23:53:04,148 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-11 23:53:04,148 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 00:06:12,890 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 00:06:12,891 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 00:06:12,894 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 00:06:12,895 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 00:06:28,557 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 00:06:28,558 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 00:06:28,559 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 00:06:28,560 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 11:39:08,631 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 11:39:08,632 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 11:39:08,634 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 11:39:08,634 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 13:41:34,566 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-12 14:20:19,203 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 14:20:19,204 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 14:20:19,206 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 14:20:19,207 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 14:20:23,019 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 14:20:23,021 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 14:20:23,022 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 14:20:23,023 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 14:25:53,568 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 14:25:53,569 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 14:25:53,571 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 14:25:53,572 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 14:38:51,757 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 14:38:51,758 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 14:38:51,759 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 14:38:51,760 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 18:57:28,859 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-12 19:06:07,611 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 19:06:07,612 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 19:06:07,616 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 19:06:07,617 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 19:10:09,582 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 19:10:09,583 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 19:10:09,598 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 19:10:09,600 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 19:21:44,245 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 19:21:44,247 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 19:21:44,249 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 19:21:44,249 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 19:22:16,302 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 19:22:16,303 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 19:22:16,305 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 19:22:16,307 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 19:23:10,277 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 19:23:10,278 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 19:23:10,279 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 19:23:10,280 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 19:45:04,165 [Worker-37: Launching Lab2Task2Prog1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 19:45:04,166 [Worker-37: Launching Lab2Task2Prog1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 19:45:04,167 [Worker-37: Launching Lab2Task2Prog1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 19:45:04,169 [Worker-37: Launching Lab2Task2Prog1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 19:54:09,630 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 19:54:09,631 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 19:54:09,632 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 19:54:09,633 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 19:54:23,672 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 19:54:23,673 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 19:54:23,674 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 19:54:23,676 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 20:22:04,587 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 20:22:04,588 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 20:22:04,589 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 20:22:04,590 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 20:24:49,072 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 20:24:49,073 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 20:24:49,075 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 20:24:49,075 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 20:25:11,256 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 20:25:11,257 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 20:25:11,258 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 20:25:11,259 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 20:26:19,290 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 20:26:19,291 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 20:26:19,291 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 20:26:19,292 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 21:59:01,297 [Worker-73: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 21:59:01,299 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 21:59:01,300 [Worker-73: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 21:59:01,301 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 23:05:22,903 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 23:05:22,904 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 23:05:22,905 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 23:05:22,906 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 23:05:38,056 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 23:05:38,057 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 23:05:38,058 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 23:05:38,059 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 23:07:39,462 [Worker-90: Launching Lab2Task2Prog2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 23:07:39,463 [Worker-90: Launching Lab2Task2Prog2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 23:07:39,465 [Worker-90: Launching Lab2Task2Prog2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 23:07:39,466 [Worker-90: Launching Lab2Task2Prog2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 23:11:27,958 [Worker-90: Launching Lab2Task2Prog2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 23:11:27,959 [Worker-90: Launching Lab2Task2Prog2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 23:11:27,962 [Worker-90: Launching Lab2Task2Prog2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 23:11:27,962 [Worker-90: Launching Lab2Task2Prog2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 23:12:13,450 [Worker-91: Launching Lab2Task2Prog2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 23:12:13,452 [Worker-91: Launching Lab2Task2Prog2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 23:12:13,453 [Worker-91: Launching Lab2Task2Prog2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 23:12:13,454 [Worker-91: Launching Lab2Task2Prog2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 23:13:27,236 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 23:13:27,237 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 23:13:27,238 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 23:13:27,238 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 23:14:47,629 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-12 23:15:07,132 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 23:15:07,133 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 23:15:07,135 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 23:15:07,149 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 23:15:16,120 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 23:15:16,123 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\main\resources
+2021-12-12 23:15:16,126 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-12 23:15:16,127 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Codes\emse_project\Cloud Computing\aws-cloud\src\test\resources
+2021-12-12 23:24:55,132 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

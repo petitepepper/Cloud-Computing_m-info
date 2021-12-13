@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="software.amazon.awssdk.regions.Region"/>
     <fullyQualifiedTypeName name="software.amazon.awssdk.services.ec2.model.RunInstancesRequest"/>
     <fullyQualifiedTypeName name="software.amazon.awssdk.services.ec2.model.InstanceType"/>
     <fullyQualifiedTypeName name="software.amazon.awssdk.services.ec2.model.Tag"/>
@@ -14,4 +13,19 @@
     <fullyQualifiedTypeName name="software.amazon.awssdk.services.ec2.model.DescribeInstancesResponse"/>
     <fullyQualifiedTypeName name="software.amazon.awssdk.services.ec2.model.Reservation"/>
     <fullyQualifiedTypeName name="software.amazon.awssdk.services.ec2.model.Instance"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.services.s3.model.Bucket"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.services.ec2.model.Region"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.regions.Region"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.services.s3.S3Client"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.services.sqs.model.ReceiveMessageRequest"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.services.sqs.model.SqsException"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.services.sqs.model.DeleteMessageRequest"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.services.s3.model.GetObjectRequest"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.services.s3.model.DeleteObjectRequest"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.services.s3.model.S3Object"/>
+    <fullyQualifiedTypeName name="software.amazon.awssdk.core.sync.ResponseTransformer"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
+    <fullyQualifiedTypeName name="java.nio.file.Paths"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
 </qualifiedTypeNameHistroy>
