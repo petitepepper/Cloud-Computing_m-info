@@ -6,7 +6,7 @@ automate the summarization of the hourly sales of a retailer with an application
 
 ### Two main components of the application
 
-|       | Client                                                       | Woker                                                        |
+|       | Client                                                       | Worker                                                       |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Def   | web front end that serves client requests                    | performs resource-intensive tasks, long-running workflows, or batch jobs |
 | Task1 | reading the CSV file & upload it into the cloud              | wait for a message from the *Client*                         |
