@@ -1,23 +1,20 @@
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
-import software.amazon.awssdk.core.waiters.WaiterResponse;
 import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.s3.S3Client;
 import software.amazon.awssdk.awscore.exception.AwsServiceException;
 import software.amazon.awssdk.core.exception.SdkClientException;
 import software.amazon.awssdk.core.sync.RequestBody;
+import software.amazon.awssdk.core.sync.ResponseTransformer;
 import software.amazon.awssdk.services.s3.model.S3Exception;
 import software.amazon.awssdk.services.s3.model.PutObjectRequest;
-import software.amazon.awssdk.services.s3.model.CreateBucketRequest;
 import software.amazon.awssdk.services.s3.model.GetObjectRequest;
-import software.amazon.awssdk.services.s3.waiters.S3Waiter;
-import software.amazon.awssdk.services.s3.model.HeadBucketRequest;
-import software.amazon.awssdk.services.s3.model.HeadBucketResponse;
 import software.amazon.awssdk.services.s3.model.InvalidObjectStateException;
 import software.amazon.awssdk.services.s3.model.NoSuchKeyException;
 import software.amazon.awssdk.services.sqs.SqsClient;
@@ -35,11 +32,10 @@ public class Client {
                 "    <bucketName> <key> <inbox queuy url> <outbox queuy url> \n" ;
   
 
-        if (args.length != 3) {
+        if (args.length != 4) {
             System.out.println(USAGE);
             System.exit(1);
         }
-
 
  
         Region region = Region.EU_WEST_3;
@@ -53,35 +49,47 @@ public class Client {
         
 
         String bucketName = args[0];
-        String key        = args[1]; ///file name 
+        String key        = args[1]; //file(to upload) name 
         String queueInUrl = args[2];
         String queueOutUrl= args[3];
         
+        /*
+         * Note that this part below should be run only once!
+         * 		otherwise you will need to change the name of file to upload MANUALLY!
+         */
+        
+        ///////////////////////////
         // Upload file to S3 bucket
         UploadObject(s3,bucketName,key);
         
-        // Send message to inbox queue
+        // Send message to Inbox queue
         String message = bucketName + "," + key;
         sendMessage(sqsClient,queueInUrl,message);
+        ///////////////////////////
+        
         
         boolean waitResponse = true; 
-        // Check message in Inbox queue every 1 min
+        // Check message in outbox queue every 1 min
         while(waitResponse) {
-        	TimeUnit.MINUTES.sleep(1);
         	// Retrieve message
         	List<Message> messages = retrieveMessage(sqsClient,queueOutUrl);
-        	if (messages != null) {
-        		String fileNames = messages.get(0).body(); //里面有2个file的name
-        		//这儿是瞎写的
-        		String resultFile = fileNames.split(",")[1];
+        	if (messages.size()!=0 && messages!=null) {
+        		for(Message each:messages) {
+	        		String[] fileNames = each.body().split(","); 
+	        		String outputFileName = fileNames[1];
+	        		File file = new File("src\\temp\\client\\"+outputFileName);	
+	            	// Read file from S3 & save it
+	            	getObject(s3,bucketName,outputFileName,file);
+        		}
+        		
+        		// End waiting
+            	waitResponse = false;
         		// Delete message
             	deleteMessages(sqsClient,queueOutUrl,messages);
-            	// TODO:修改函数，返回文件？Read file from S3
-            	getObject(s3,bucketName,resultFile);
-            	//TODO:保存文件
-            	// End waiting
-            	waitResponse = false;
-        	}	
+        	}
+        	
+        	//Wait for a minute
+        	TimeUnit.MINUTES.sleep(1);
         }
         
         
@@ -103,10 +111,12 @@ public class Client {
 
     // Send a message to the queue
     public static void sendMessage(SqsClient sqsClient, String queueUrl, String message) {
+    	Long messageId = System.currentTimeMillis();
     	sqsClient.sendMessage(SendMessageRequest.builder()
                 .queueUrl(queueUrl)
                 .messageBody(message)
-                .delaySeconds(10)
+                .messageGroupId(""+messageId)
+                .messageDeduplicationId(""+messageId)
                 .build());
     	System.out.println("[INFO]Message send to queue successfully!");
     }
@@ -148,14 +158,13 @@ public class Client {
    } 
    
     // Retrieve file from S3
-    public static void getObject(S3Client s3, String bucketName, String key) throws NoSuchKeyException, InvalidObjectStateException, S3Exception, AwsServiceException, SdkClientException, IOException {
+    public static void getObject(S3Client s3, String bucketName, String key, File file) throws NoSuchKeyException, InvalidObjectStateException, S3Exception, AwsServiceException, SdkClientException, IOException {
     	GetObjectRequest getObjectRequest = GetObjectRequest.builder()
                 .bucket(bucketName)
                 .key(key)
                 .build();
     	
-    	// TODO: how to get an integer List?
-    	s3.getObject(getObjectRequest);
+    	s3.getObject(getObjectRequest,ResponseTransformer.toFile(file));
     	System.out.println("[INFO]Retrieve file successfully");
     }
    
